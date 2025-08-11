@@ -3,7 +3,7 @@
 ### 😃 And you've come to the right place!
 ### Let's start making something cool!
 
-### 🤔 So which Scratch Version do you wanna use? 
+### 🤔 So which Scrooch Version do you wanna use? 
 ### ⚖️ Let me compare them for you.
 
 | Feature                       | Scrooch 2 | Scrooch 3  |
