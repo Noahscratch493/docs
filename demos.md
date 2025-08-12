@@ -14,7 +14,7 @@ A fun example mod based on Scratch that has weird tools like- A Linux Distro?!
 ## 📁 Scrooch3-Template
 The Live Source of the Template
 
-🔗 **Live Site:** [scrooch-project.github.io/Scrooch3-Template](https:/scrooch-project.github.io/Scrooch3-Template)
+🔗 **Live Site:** [scrooch-project.github.io/Scrooch3-Template](https://scrooch-project.github.io/Scrooch3-Template/)
 
 ---
 
