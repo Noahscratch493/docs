@@ -2,12 +2,14 @@
 
 ### 🔧 What is Scrooch?
 
-**Scrooch** is a free web tool that lets you create a **Scratch 2.0 mod** with ease.  
-With Scrooch, you can:
+**Scrooch** is a free web tool that lets you create a **Scratch 2.0/3.0 mod** with ease.  
+With Scrooch 2, you can:
 
 - Edit Scratch 2 projects in an embedded legacy editor  
 - Convert `.sb2` files to `.swf` format  
 - Instantly test mods using **Ruffle** — no Flash plugin needed  
+
+But, With **Scrooch 3** you can easily make super customisable Scratch mods!
 
 ---
 
@@ -16,7 +18,7 @@ With Scrooch, you can:
 Scrooch was made as a fun, powerful alternative to my earlier tool, **EditableScratch**, which just rebranded the Scratch site.  
 Scrooch offers:
 
-- No use of official Scratch branding or sprite libraries  
+- Mostly No use of official Scratch branding
 - A custom default project ready to mod  
 - A focus on creativity, editing, and conversion  
 
