@@ -5,3 +5,4 @@
   - [🆕 Scrooch 3](setup/v3.md)
 
 - [▶️ Live Demos](demos.md)
+- [❔ About](about.md)
