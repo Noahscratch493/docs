@@ -1,4 +1,4 @@
-# 👋 Welcome!
+# 👋 Welcome to the Scrooch Documentation!
 ### 👀 So you're here to make a cool Scratch Mod-
 ### 😃 And you've come to the right place!
 ### Let's start making something cool!
