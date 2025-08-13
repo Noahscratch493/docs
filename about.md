@@ -9,8 +9,7 @@ With Scrooch 2, you can:
 - Convert `.sb2` files to `.swf` format  
 - Instantly test mods using **Ruffle** — no Flash plugin needed  
 
-But, With **Scrooch 3** you can easily make super customisable Scratch mods!
-
+But, With **Scrooch 3** you can easily easily make a cool Scratch Mod!
 ---
 
 ### 🎯 Why I Made It
