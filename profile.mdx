@@ -1,0 +1,57 @@
+# Profile Embed Documentation
+
+The **Profile Embed** allows you to display a Scratch user's profile directly on your website. This includes their **profile picture, username, tier, stats**, and **top projects**. It's fully responsive and works on desktop and mobile.
+
+---
+
+## URL Format
+
+To embed a profile, use the following iframe URL:
+
+``` filename
+<iframe 
+  src="https://noahscratch493.github.io/ScratchFrame/profile/?username=Noahscratch493" 
+  style="width:100%; height:600px; border:none;"
+  allowfullscreen
+></iframe>
+```
+
+- **username**: Replace `Noahscratch493` with the Scratch username you want to display.
+
+---
+
+## Example
+
+```html
+<iframe 
+  src="https://noahscratch493.github.io/ScratchFrame/profile/?username=SomeUser" 
+  style="width:100%; height:700px; border-radius:15px; border:2px solid #1d70b8;"
+  allowfullscreen
+></iframe>
+```
+
+This will render the profile embed for the Scratch user `SomeUser`. The embed shows:
+
+- **Profile Picture** in the top left.
+- **Username** and **tier**, including a tooltip explaining the tier.
+- **Stats**: Followers, Loves, Favorites, and number of Projects.
+- **Top 5 Projects** with clickable thumbnails (opens in TurboWarp or Scratch).
+- **Open in Scratch** button to view the full profile on the Scratch website.
+
+---
+
+## Notes
+
+- The profile embed **updates dynamically**, so it always shows the latest projects and stats.
+- The **tier system**:
+  - `Owner`: Special tier for the creator (`Noahscratch493`).
+  - `Scratch Staff`: Verified Scratch team members.
+  - `New Scratcher` → `Master Scratcher`: Based on total projects, loves, and favorites.
+- Clicking a project opens a **project actions overlay**, allowing users to run the project in TurboWarp or open it in Scratch.
+- You can **customize the iframe size** using width, height, border, and border-radius styles.
+
+---
+
+### Quick Tip
+
+If you want multiple profiles on the same page, simply add more iframes with different `?username=` parameters. The embed is designed to be responsive, so it works well side by side or stacked.
