@@ -1,0 +1,140 @@
+# ScratchFrame FAQ
+
+This FAQ answers common questions about **ScratchFrame**, including **Profile, Studio, and Explore embeds**.
+
+---
+
+## Table of Contents
+
+* [What is ScratchFrame?](#what-is-scratchframe)
+* [How do I embed a profile?](#how-do-i-embed-a-profile)
+* [How do I embed a studio?](#how-do-i-embed-a-studio)
+* [How do I embed Explore projects?](#how-do-i-embed-explore-projects)
+* [Can I customize the iframe size?](#can-i-customize-the-iframe-size)
+* [What is the tier system?](#what-is-the-tier-system)
+* [How do project actions work?](#how-do-project-actions-work)
+* [Can I embed multiple profiles or studios?](#can-i-embed-multiple-profiles-or-studios)
+* [Troubleshooting](#troubleshooting)
+
+---
+
+## What is ScratchFrame?
+
+**ScratchFrame** is a platform that allows you to embed **Scratch profiles, studios, and Explore projects** directly on your website.
+It supports:
+
+* Responsive layouts
+* Latest projects and stats
+* Project action overlays for TurboWarp or Scratch
+
+---
+
+## How do I embed a profile?
+
+Use an **iframe** pointing to the profile URL:
+
+```jsx
+<iframe
+  src="https://noahscratch493.github.io/ScratchFrame/profile/?username=SomeUser"
+  style={{ width: "100%", height: "600px", border: "none", borderRadius: "10px" }}
+  allowFullScreen
+/>
+```
+
+* Replace `SomeUser` with the Scratch username you want to display.
+* Shows profile picture, username, tier, stats, and top 5 projects.
+
+---
+
+## How do I embed a studio?
+
+Use an **iframe** pointing to the studio URL:
+
+```jsx
+<iframe
+  src="https://noahscratch493.github.io/ScratchFrame/studio/?studio=12345678"
+  style={{ width: "100%", height: "600px", border: "none", borderRadius: "10px" }}
+  allowFullScreen
+/>
+```
+
+* Replace `12345678` with the Scratch Studio ID.
+* Shows studio thumbnail, title, description, stats, and top 5 projects.
+
+---
+
+## How do I embed Explore projects?
+
+Use an **iframe** pointing to the Explore URL:
+
+```jsx
+<iframe
+  src="https://noahscratch493.github.io/ScratchFrame/explore"
+  style={{ width: "100%", height: "600px", border: "none", borderRadius: "10px" }}
+  allowFullScreen
+/>
+```
+
+* Shows latest projects from various Scratch users.
+* Displays project thumbnail, title, and author profile picture and username.
+* Clicking a project opens a **project actions overlay**.
+
+---
+
+## Can I customize the iframe size?
+
+Yes! You can adjust **width, height, border, border-radius**, and other styles using **CSS** or inline styles.
+
+Example:
+
+```jsx
+<iframe
+  src="https://noahscratch493.github.io/ScratchFrame/profile/?username=SomeUser"
+  style={{ width: "80%", height: "500px", border: "2px solid #1d70b8", borderRadius: "15px" }}
+  allowFullScreen
+/>
+```
+
+---
+
+## What is the tier system?
+
+The **tier system** shows a user’s status based on their Scratch stats:
+
+* `Owner`: Creator of ScratchFrame (`Noahscratch493`)
+* `Scratch Staff`: Verified Scratch Team members
+* `New Scratcher → Master Scratcher`: Based on total projects, loves, and favorites
+
+Hovering over the **tier icon** shows a tooltip explaining the tier.
+
+---
+
+## How do project actions work?
+
+Clicking a project in a profile, studio, or Explore embed opens a **project actions overlay**:
+
+* **Run in TurboWarp**: Runs the project in a fullscreen TurboWarp embed.
+* **Open in Scratch**: Opens the project in a new tab on Scratch.
+* **Back / Cancel**: Closes the overlay without running the project.
+
+---
+
+## Can I embed multiple profiles or studios?
+
+Yes! Simply add multiple **iframe embeds** with different usernames or studio IDs.
+All embeds are responsive and can be stacked or displayed side by side.
+
+---
+
+## Troubleshooting
+
+* **User or studio not found**: Check the username or studio ID for typos.
+* **Projects not showing**: Ensure the user/studio has public projects.
+* **Iframe not responsive**: Make sure your container allows width `100%`.
+* **Tier incorrect**: Scratch Staff is determined by the `scratchteam` value in the Scratch API.
+
+---
+
+### Quick Tip
+
+You can combine **Profile, Studio, and Explore embeds** on the same page for a full ScratchFrame dashboard experience.
